@@ -1,0 +1,17 @@
+{
+  "name": "mongo-pattern-pack-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live MongoDB aggregation tests for the Pattern Pack (Patterns 1\u201310)",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node run-tests.cjs",
+    "demo": "node run-pattern.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  }
+}
