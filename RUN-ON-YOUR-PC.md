@@ -60,23 +60,6 @@ mongosh --quiet --eval "db.getSiblingDB('sample_mflix').comments.createIndex({ m
 
 ---
 
-## 3. Get the test files onto disk
-
-From Google Drive, download / sync:
-
-`GrokBot-Share/mongo-pattern-pack/node-volume/tests/`
-
-You want at least:
-
-- `package.json`
-- `helpers/mongo.js`
-- `patterns/` (all `pattern-0N.js` and `*.test.js` files)
-- This guide and `README.md`
-
-Skip `node_modules` if present; you will regenerate it with `npm install`.
-
----
-
 ## 4. Install dependencies and run
 
 ```powershell
