@@ -1,0 +1,15 @@
+[project]
+name = "mongo-pattern-pack-python-tests"
+version = "1.0.0"
+description = "Live MongoDB aggregation tests for Pattern Pack Vol. 1 (Python)"
+requires-python = ">=3.10"
+dependencies = [
+  "pymongo>=4.6,<5",
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["patterns"]
+python_files = ["test_*.py"]
+pythonpath = ["patterns", "."]
+addopts = "-q"
