@@ -1,6 +1,6 @@
 """
 Pattern 6 — Multi-collection report via $lookup (sample_mflix)
-Shared pipeline builder so manuscript examples and tests stay aligned.
+Shared pipeline builder so the book's examples and these tests stay aligned.
 """
 
 from __future__ import annotations
