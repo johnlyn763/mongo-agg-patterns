@@ -1,6 +1,6 @@
 """
 Pattern 1 — Time-bucket totals
-Shared pipeline builder so manuscript examples and tests stay aligned.
+Shared pipeline builder so the book's examples and these tests stay aligned.
 """
 
 from __future__ import annotations
@@ -72,7 +72,7 @@ def get_pipeline(opts: dict[str, Any] | None = None) -> list[dict[str, Any]]:
 
 def get_exploration_pipeline(opts: dict[str, Any] | None = None) -> list[dict[str, Any]]:
     """
-    Exploration path from the manuscript: early $match + $limit so later
+    Exploration path from the book: early $match + $limit so later
     stages can be commented out while inspecting intermediates.
     """
     opts = opts or {}

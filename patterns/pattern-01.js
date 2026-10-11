@@ -2,7 +2,7 @@
 
 /**
  * Pattern 1 — Time-bucket totals
- * Shared pipeline builder so manuscript examples and tests stay aligned.
+ * Shared pipeline builder so the book's examples and these tests stay aligned.
  *
  * @param {object} [opts]
  * @param {string} [opts.timezone='America/New_York']
@@ -60,7 +60,7 @@ function getPipeline(opts = {}) {
 }
 
 /**
- * Exploration path from the manuscript: early $match + $limit so later
+ * Exploration path from the book: early $match + $limit so later
  * stages can be commented out while inspecting intermediates.
  *
  * @param {object} [opts]
